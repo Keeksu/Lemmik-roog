@@ -1,0 +1,39 @@
+body {
+    background-color: rgba(149, 158, 111, 0.575);
+}
+
+.footer {
+    font-size: 1rem;
+    color: rgb(153, 162, 170);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.heading {
+    color: rgb(202, 101, 5);
+    font-family: 'Source Code Pro', monospace;
+}
+
+img {
+    width: 325px; height: 326px;
+    border-radius: 8px;
+}
+
+.kumm {
+    margin: 0 auto;
+}
+
+li {
+    color: rgb(0, 158, 0);
+}
+
+.valm {
+    color: rgb(202, 101, 5);;
+}
+
+th {
+    color: rgb(107, 107, 107);
+}
+
+span {
+    color: red;
+}
