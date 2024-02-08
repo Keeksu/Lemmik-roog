@@ -13,33 +13,35 @@ body {
     color: rgb(202, 101, 5);
     font-family: 'Source Code Pro', monospace;
     text-align: center;
+    border: 35px solid rgba(4, 111, 182, 0.514);
+    background-color: rgb(223, 248, 242);
 }
 
-h2{
+.kumm h2{
     color: rgb(202, 101, 5);
     text-align: center;
     
 }
 
-img {
-    width: 325px; height: 326px;
-    border-radius: 8px;
+.kumm span {
+    color: rgb(206, 2, 2);
 }
 
-.kumm {
+.kumm table {
     margin: auto;
 }
 
-li {
-    color: rgb(0, 158, 0);
+.valm li {
+    color: rgb(3, 133, 3);
+    font-size: 1.2rem;
 }
 
-ol {
-    text-align: center;
-    list-style-position: inside;
+.valm ol {
+    margin: 0 auto;
+    width: 15%;
 }
 
-.valm {
+.valm h2{
     color: rgb(202, 101, 5);;
     text-align: center;
 }
@@ -50,12 +52,51 @@ th {
 
 .vii {
     color: blueviolet;
-}
-
-span {
-    color: red;
-}
-
-div {
     text-align: center;
 }
+
+div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    margin: 0 auto;
+    width: 267px;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
