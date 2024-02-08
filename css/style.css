@@ -6,11 +6,19 @@ body {
     font-size: 1rem;
     color: rgb(153, 162, 170);
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 
 .heading {
     color: rgb(202, 101, 5);
     font-family: 'Source Code Pro', monospace;
+    text-align: center;
+}
+
+h2{
+    color: rgb(202, 101, 5);
+    text-align: center;
+    
 }
 
 img {
@@ -19,21 +27,35 @@ img {
 }
 
 .kumm {
-    margin: 0 auto;
+    margin: auto;
 }
 
 li {
     color: rgb(0, 158, 0);
 }
 
+ol {
+    text-align: center;
+    list-style-position: inside;
+}
+
 .valm {
     color: rgb(202, 101, 5);;
+    text-align: center;
 }
 
 th {
     color: rgb(107, 107, 107);
 }
 
+.vii {
+    color: blueviolet;
+}
+
 span {
     color: red;
+}
+
+div {
+    text-align: center;
 }
