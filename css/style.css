@@ -23,6 +23,11 @@ body {
     
 }
 
+#pealk th {
+font-size: 2rem;
+color: rgb(42, 53, 99);
+}
+
 .kumm span {
     color: rgb(206, 2, 2);
 }
